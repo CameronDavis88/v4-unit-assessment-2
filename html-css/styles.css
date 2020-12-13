@@ -12,3 +12,212 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+body{
+    box-sizing: border-box;
+    width: 100vw;
+    
+}
+ header{
+     box-sizing: border-box;
+     background-color: black;
+     width: 100%;
+     height: 12vh;
+     display: flex;
+     align-items: center;
+ }
+
+ #titlebox{
+     box-sizing: border-box;
+     position: relative;
+     top: 0vh;
+     left: 5vh;
+ }
+ #title{
+     box-sizing: border-box;
+     color:rgb(42, 171, 226) ;
+     position: relative;
+     top: 0vh;
+     font-size: x-large;
+     font-family: Cambria;
+ }
+#rightbox{
+    width: 70vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    right: 10vh;
+}
+ .home{
+     color: white;
+     margin: 0vh 2vh 0vh 2vh;
+ }
+ .topics{
+     color: white;
+     margin: 0vh 2vh 0vh 2vh;
+ }
+ .sub{
+     color: white;
+     margin: 0vh 2vh 0vh 2vh;
+ }
+ .sign{
+     color: white;
+     margin: 0vh 2vh 0vh 2vh;
+ }
+
+main{
+  
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    
+    
+   
+}
+
+h2{
+    
+    box-sizing: border-box;
+    position: relative;
+    left: 17vh;
+    top: 5vh;
+    
+}
+
+article{
+    box-sizing: border-box;
+    width: 50%;
+    height: 80vh;
+    flex-wrap: wrap;
+    position: relative;
+    top: 10vh;
+    left: 20vh;
+
+    
+
+}
+div{
+    box-sizing: border-box;
+    width: 35vh;    
+    height: 60h;
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 7vh;
+    right:20vh;
+    
+
+    
+
+}
+#sidebar1{
+    box-sizing: border-box;
+    width: 25vh;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 10px; color: rgb(185, 184, 184);
+    position: relative;
+}
+
+#profile{
+    box-sizing: border-box;
+    height: 17vh;
+    width: 17vh;
+    position: relative;
+    top: 3vh;
+    left: 3.5vh;
+}
+#sidebar2{
+    width: 25vh;
+    height: 35vh;
+    box-sizing: border-box;
+    position: relative;
+    top: 5vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 10px; color: rgb(185, 184, 184);
+    padding: 2vh 2vh 2vh 2vh;
+}
+
+#YourNameText{
+    color: black;
+    font: bold;
+    box-sizing: border-box;
+    position: relative;
+    top: 4vh;
+    left: 6vh;
+}
+
+#PopularArticlesText{
+    box-sizing: border-box;
+    color: black;
+    left: 1vh;
+
+}
+
+#list {
+    box-sizing: border-box;
+    color:black ;
+    position: relative;
+    top: 2vh;
+
+}
+
+#Gallery-text{
+    box-sizing: border-box;
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    top: 0vh;
+    left: 17vh;
+}
+
+section{
+    box-sizing: border-box;
+    
+    height: 50vh;
+    padding: 0vh 80vh 0vh 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    bottom: 5vh;
+
+
+    
+    
+}
+
+.logos{
+    margin: 2vh 1vh 2vh 1vh;
+    height: 20vh;
+    width: 30vh;
+}
+
+footer{
+    box-sizing: border-box;
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(42, 171, 226);
+    position: relative;
+    bottom: -1.5vh;
+    padding: 0vh 0vh 1vh 0vh;
+
+    
+}
+#footertext{
+    position: relative;
+    left: 1vh;
+    bottom: 2vh;
+    display: flex;
+    align-items: center;
+    top: 2vh;
+
+}
